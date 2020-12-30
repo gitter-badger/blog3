@@ -103,4 +103,9 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repo:
+    github:
+      url: https://github.com/aner1001/blog3.git
+      branch: gh-pages
+      token: $HEXO_GITHUB_TOKEN

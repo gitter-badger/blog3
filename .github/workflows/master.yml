@@ -2,7 +2,7 @@
 
 name: CI
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
@@ -37,5 +37,4 @@ jobs:
           git config --global user.email "584856024@qq.com"
           npm install
           npm run build
-          bpm run deploy
-          
+          npm run deploy
